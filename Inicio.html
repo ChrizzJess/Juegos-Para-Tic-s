@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juegos Para Tics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000000, #800080);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+      background: linear-gradient(to right, #007BFF, #8e44ad);
+      color: white;
+    }
+
+    .titulo {
+      font-size: 48px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .menu {
+      position: relative;
+    }
+
+    .menu button {
+      background-color: white;
+      color: #333;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background-color: white;
+      min-width: 180px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    .menu-content a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .menu-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .menu:hover .menu-content {
+      display: block;
+    }
+
+    .recuadro {
+      background: linear-gradient(to right, #007BFF, #8e44ad);
+      color: white;
+      padding: 40px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .mensaje {
+      margin: 40px 20px;
+      font-size: 28px;
+      text-align: center;
+      line-height: 1.5;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="titulo">Juegos Para Tics</div>
+    <div class="menu">
+      <button>Menú</button>
+      <div class="menu-content">
+        <a href="#">Inicio</a>
+        <a href="#"><a href="reseña.html">Reseñas</a></a>
+        <a href="#"><a href="Blog.html">Blog</a></a>
+        <a href="#"><a href="Catadores.html">Catadores de Juegos</a></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="recuadro">
+    Bienvenidos a nuestra plataforma de videojuegos y tecnología.
+  </div>
+
+  <div class="mensaje">
+    Para distraerte en TICs y perder el tiempo de manera completamente irresponsable, hoy, mis compañeros y yo les recomendamos juegos para desperdiciar el tiempo en la clase de TICs.
+  </div>
+
+</body>
+</html>
